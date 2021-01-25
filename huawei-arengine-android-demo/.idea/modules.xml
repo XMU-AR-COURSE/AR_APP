@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/huawei-arengine-android-demo.iml" filepath="$PROJECT_DIR$/.idea/modules/huawei-arengine-android-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/HwAREngineDemo/huawei-arengine-android-demo.HwAREngineDemo.iml" filepath="$PROJECT_DIR$/.idea/modules/HwAREngineDemo/huawei-arengine-android-demo.HwAREngineDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SampleCodeKotlin/huawei-arengine-android-demo.SampleCodeKotlin.iml" filepath="$PROJECT_DIR$/.idea/modules/SampleCodeKotlin/huawei-arengine-android-demo.SampleCodeKotlin.iml" />
+    </modules>
+  </component>
+</project>

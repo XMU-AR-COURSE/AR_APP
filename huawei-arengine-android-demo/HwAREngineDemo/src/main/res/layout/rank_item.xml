@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="#CCCCCC">
+    <!--排名-->
+    <TextView
+        android:id="@+id/_rank"
+        android:layout_width="40dp"
+        android:layout_marginLeft="25dp"
+        android:layout_height="40dp"
+        android:text="1"
+        android:textSize="20dp"
+        android:textColor="#0f0f0f"
+        android:gravity="center" />
+    <!--玩家ID-->
+    <TextView
+        android:id="@+id/_id"
+        android:layout_width="100dp"
+        android:layout_toRightOf="@+id/_rank"
+        android:layout_height="40dp"
+        android:text="玩家ID"
+        android:textSize="20dp"
+        android:textColor="#0f0f0f"
+        android:gravity="center"/>
+    <!--分数-->
+    <TextView
+        android:id="@+id/_scores"
+        android:layout_width="50dp"
+        android:layout_toRightOf="@+id/_id"
+        android:layout_height="40dp"
+        android:text="100"
+        android:textSize="20dp"
+        android:textColor="#0f0f0f"
+        android:gravity="center"/>
+    <!--上传时间-->
+    <TextView
+        android:id="@+id/_time"
+        android:layout_width="200dp"
+        android:layout_toRightOf="@+id/_scores"
+        android:layout_height="40dp"
+        android:text="2020-09-24 16:47:51"
+        android:textSize="18dp"
+        android:textColor="#0f0f0f"
+        android:gravity="center"/>
+</RelativeLayout>

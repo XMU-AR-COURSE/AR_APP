@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".java.world.EndActivity">
+    <!--显示得分-->
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:text="恭喜您\n您的得分为：100!"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:layout_centerHorizontal="true" />
+    <!--ID输入框-->
+    <EditText
+        android:id="@+id/id_input"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="快输入您的ID，上传成绩吧！"
+        android:layout_below="@+id/title"
+        android:layout_marginBottom="100dp" />
+    <!--上传按钮-->
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_toRightOf="@+id/id_input"
+        android:layout_below="@+id/title"
+        android:layout_marginBottom="100dp"
+        android:text="上传"/>
+    <!--排行榜标题-->
+    <TextView
+        android:id="@+id/tt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:text="排名     ID     分数       时间    "
+        android:textSize="25dp"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:visibility="gone" />
+    <!--存储十条排名信息-->
+    <ScrollView android:id="@+id/scrollView"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/tt"
+        android:visibility="gone">
+        <!--存储单条排名信息-->
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/ranks"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent" />
+    </ScrollView>
+</RelativeLayout>
