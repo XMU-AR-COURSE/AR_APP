@@ -3,7 +3,7 @@
 ***Server***文件夹中是服务器代码<br/>
 **运行环境**：Pyhton3.7、Django3.0（Python3.7下命令安装Django即可）<br/>
 **目录结构**：<br/>
-![Image text](https://raw.githubusercontent.com/XMU-AR-COURSE/Img/main/Server%E7%9B%AE%E5%BD%95.png)<br/>
+![Image text]()<br/>
 *ar_server*：应用的容器。<br/>
 *ar_server/migrations*：数据库迁移文件夹。<br/>
 *ar_server/admin.py*：后台admin配置文件。<br/>
